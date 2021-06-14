@@ -22,11 +22,7 @@ class _QueueListState extends State<QueueList> {
     return ReorderableListView(
       children: <Widget>[
         for (int i = 0; i < queuedVideos.length; i++)
-          QueuedVideoTile(
-              video: queuedVideos[i],
-              index: i,
-              key: Key('${queuedVideos[i].id}')
-          )
+          QueuedVideoTile(video: queuedVideos[i], index: i, key: Key('${queuedVideos[i].id}'))
       ],
       onReorder: (oldIndex, newIndex) {
         setState(() {

@@ -53,17 +53,18 @@ class RemotePanel extends StatelessWidget {
         BlocBuilder<VideoCubit, Video?>(builder: renderNowPlaying),
         createSectionTitle("Up Next"),
         Expanded(
-            child: QueueList([
-          Video("This or That | Those Are Rookie Numbers!", "LoL Esports", "-51YtVM5lrY", "1:23"),
-          Video('KKAP Workshop | "Hot Sauce" NCT Dream', "KKAP UCI", "s8xWniY9obk", "12:21"),
-          Video('DWG vs SN - Game 1 | Grand Finals S10 LoL Worlds 2020 PlayOffs | DAMWON Gaming vs Suning G1 full',
-              "League of Legends VODs", "MPlGWKm-jdg", "53:21"),
-          Video('Clone Wars: Battle of the Heroes | MAY 4th TRAILER! (Anakin vs. Obi-wan fan animation)',
-              "Star Wars Animations", "Rio2B5_-bSo", "0:25"),
-          Video("K/DA - POP/STARS (ft. Madison Beer, (G)I-DLE, Jaira Burns) | Music Video - League of Legends",
-              "League of Legends", "UOxkGD8qRB4", "9:45"),
-          Video("Usain Bolt | ALL Olympic finals + Bonus round | Top Moments", "Olympics", "FuiJHJz4f5Q", "9:16")
-        ]))
+          child: QueueList([
+            Video("This or That | Those Are Rookie Numbers!", "LoL Esports", "-51YtVM5lrY", "1:23"),
+            Video('KKAP Workshop | "Hot Sauce" NCT Dream', "KKAP UCI", "s8xWniY9obk", "12:21"),
+            Video('DWG vs SN - Game 1 | Grand Finals S10 LoL Worlds 2020 PlayOffs | DAMWON Gaming vs Suning G1 full',
+                "League of Legends VODs", "MPlGWKm-jdg", "53:21"),
+            Video('Clone Wars: Battle of the Heroes | MAY 4th TRAILER! (Anakin vs. Obi-wan fan animation)',
+                "Star Wars Animations", "Rio2B5_-bSo", "0:25"),
+            Video("K/DA - POP/STARS (ft. Madison Beer, (G)I-DLE, Jaira Burns) | Music Video - League of Legends",
+                "League of Legends", "UOxkGD8qRB4", "9:45"),
+            Video("Usain Bolt | ALL Olympic finals + Bonus round | Top Moments", "Olympics", "FuiJHJz4f5Q", "9:16")
+          ]),
+        )
       ],
     );
   }
