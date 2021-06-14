@@ -29,7 +29,7 @@ class QueuedVideoTile extends StatelessWidget {
               child: Icon(Icons.drag_handle),
               index: index,
             ),
-          )
+          ),
         ],
       ),
     );

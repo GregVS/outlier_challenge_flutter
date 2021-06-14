@@ -33,7 +33,7 @@ class VideoInformation extends StatelessWidget {
                   Text(video.author, style: Theme.of(context).textTheme.caption),
                 ],
               ),
-            )
+            ),
           ],
         ));
   }

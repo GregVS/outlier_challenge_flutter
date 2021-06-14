@@ -22,14 +22,19 @@ class VideoThumbnail extends StatelessWidget {
             ),
           ),
           Align(
-              alignment: Alignment.bottomRight,
-              child: Container(
-                  padding: EdgeInsets.all(2),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(2),
-                    color: Color.fromARGB(200, 0, 0, 0),
-                  ),
-                  child: Text(video.duration, style: TextStyle(fontSize: 10))))
+            alignment: Alignment.bottomRight,
+            child: Container(
+              padding: EdgeInsets.all(2),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(2),
+                color: Color.fromARGB(200, 0, 0, 0),
+              ),
+              child: Text(
+                video.duration,
+                style: TextStyle(fontSize: 10),
+              ),
+            ),
+          )
         ],
       ),
     );

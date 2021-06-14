@@ -64,7 +64,7 @@ class RemotePanel extends StatelessWidget {
                 "League of Legends", "UOxkGD8qRB4", "9:45"),
             Video("Usain Bolt | ALL Olympic finals + Bonus round | Top Moments", "Olympics", "FuiJHJz4f5Q", "9:16")
           ]),
-        )
+        ),
       ],
     );
   }

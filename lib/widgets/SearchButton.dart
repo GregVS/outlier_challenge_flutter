@@ -17,7 +17,9 @@ class SearchButton extends StatelessWidget {
         ],
       ),
       style: ElevatedButton.styleFrom(
-          primary: Color(0xff333435), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(32))),
+        primary: Color(0xff333435),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(32)),
+      ),
     );
   }
 }
